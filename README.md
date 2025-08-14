@@ -1,33 +1,33 @@
-# 🚴‍♂️ MotoGo — Motorcycle Delivery Web App
+#  MotoGo — Motorcycle Delivery Web App
 
 **MotoGo** is a modern, responsive web application built with **React**, **TailwindCSS**, and **JavaScript**, designed to streamline motorcycle-based deliveries.  
 It supports **three user roles** — **Customer**, **Rider**, and **Admin** — each with tailored dashboards, real-time tracking, and a smooth, intuitive interface.
 
 ---
 
-## 🌟 Features
+##  Features
 
 ### **For Customers**
-- 📦 **Place delivery orders** with pickup & drop-off details.
-- 🗺 **Live package tracking** using rider GPS location.
-- 📜 View **order history** and statuses.
-- ✨ Clean, mobile-friendly interface.
+-  **Place delivery orders** with pickup & drop-off details.
+-  **Live package tracking** using rider GPS location.
+-  View **order history** and statuses.
+-  Clean, mobile-friendly interface.
 
 ### **For Riders**
-- 📋 **View assigned deliveries** in real time.
-- ✅ Accept, start, and complete orders.
-- 🗺 Location sharing for live tracking.
-- 📈 Delivery history & performance stats.
+-  **View assigned deliveries** in real time.
+-  Accept, start, and complete orders.
+-  Location sharing for live tracking.
+-  Delivery history & performance stats.
 
 ### **For Admins**
-- 📊 **Manage all orders** and track statuses.
-- 👤 Assign riders to deliveries.
-- 🚴 Monitor active riders on a live map.
-- 📂 Manage riders, customers, and data.
+-  **Manage all orders** and track statuses.
+-  Assign riders to deliveries.
+-  Monitor active riders on a live map.
+-  Manage riders, customers, and data.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend:** React, JavaScript, TailwindCSS  
 - **State Management:** React Context API, Custom Hooks  
@@ -37,13 +37,19 @@ It supports **three user roles** — **Customer**, **Rider**, and **Admin** — 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 components/
+
+
 layout/ # Navbar, Footer, Sidebar
+
 orders/ # Order form, list, and details
+
 riders/ # Rider list, rider map
+
 ui/ # Reusable UI elements (Button, Input, Modal)
+
 tracking/ # Live tracking component
 
 pages/ # Home, Login, Register, Dashboards
@@ -62,7 +68,7 @@ utils/ # Helper functions (format date, calculate distance)
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 
 1. **Customer** creates an order using a simple form.
 2. **Admin** assigns a rider to the order.
@@ -72,7 +78,7 @@ utils/ # Helper functions (format date, calculate distance)
 
 ---
 
-## 💡 Example Use Cases
+##  Example Use Cases
 - Local shops offering same-day delivery.
 - Small restaurants doing in-house delivery.
 - Personal courier services for small packages.
@@ -80,6 +86,6 @@ utils/ # Helper functions (format date, calculate distance)
 
 ---
 
-## 📌 Status
+##  Status
 This is a **frontend-first implementation** — API service files are ready to connect with a backend (Node.js/Express, Firebase, or any REST API).
 
